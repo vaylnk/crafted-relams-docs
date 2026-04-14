@@ -1,0 +1,27 @@
+{
+    "title": "Home",
+    "description": "This is the Crafted Realms Documentation Home Page. This page is dedicated to the overview of the documentation.",
+    "content": [
+        {
+            "type": "heading",
+            "level": 1,
+            "text": "Welcome to the Crafted Realms Documentation"
+        },
+        {
+            "type": "paragraph",
+            "level": 1,
+            "text": "Welcome to the Crafted Realms Documentation Home Page. This page is dedicated to the overview of the documentation."
+        },
+        {
+            "type": "image",
+            "src": "img/craftedrealms.png",
+            "alt": "Crafted Realms Logo"
+        },
+        {
+            "type": "hyperlink",
+            "level": 1,
+            "text": "You can download the game at Crafted Realms on Itch.io",
+            "url": "https://jjxddd.itch.io/crafted-realms"
+        }
+    ]
+}

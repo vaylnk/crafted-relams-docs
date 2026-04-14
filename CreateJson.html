@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>JSON Page Editor</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/createjson.css">
+    </head>
+
+<body>
+  <h1>Crafted Realms Documentation Page Creator</h1>
+
+  <div class="layout">
+    <div class="panel">
+      <h2>Add Node</h2>
+
+      <label for="pageTitle">Page Title</label>
+      <input id="pageTitle" type="text" placeholder="Page title" />
+
+      <label for="nodeType">Node Type</label>
+      <select id="nodeType">
+        <option value="heading">Heading</option>
+        <option value="paragraph">Paragraph</option>
+        <option value="hyperlink">Hyperlink</option>
+        <option value="list">List</option>
+        <option value="code">Code</option>
+        <option value="image">Image</option>
+      </select>
+
+      <div id="dynamicFields"></div>
+
+      <button id="addNodeBtn">Add Node</button>
+
+      <hr style="margin: 1rem 0; border-color: #444;" />
+
+      <h2>Export</h2>
+      <div class="actions">
+        <button id="showJsonBtn">Show JSON</button>
+        <button id="downloadJsonBtn">Download JSON</button>
+        <button id="saveJsonBtn">Save to File</button>
+      </div>
+      <p class="small">“Save to File” doesn't work in all browsers.</p>
+      <p class="small">Developed by <a href="https://artloala.netlify.app/" target="_blank">loala</a>/The Crafted Realms Team</p>
+    </div>
+
+    <div class="panel">
+      <h2>Node Editor</h2>
+      <div id="nodeList"></div>
+    </div>
+
+    <div class="panel">
+      <h2>Live Preview</h2>
+      <div id="main-content"></div>
+
+      <h2 style="margin-top: 2rem;">JSON Preview</h2>
+      <pre id="jsonPreview">{}</pre>
+    </div>
+  </div>
+
+  <script src="../js/GenerateJsonElement.js"></script>
+</body>
+
+</html>

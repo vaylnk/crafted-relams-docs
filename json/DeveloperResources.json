@@ -1,0 +1,18 @@
+{
+  "title": "Developer Resources",
+  "content": [
+    {
+      "type": "heading",
+      "level": 1,
+      "text": "Developer Resources"
+    },
+    {
+      "type": "paragraph",
+      "text": "All resources the Crafted Realms Team internally developed to create this documentation."
+    },
+    {
+      "type": "paragraph",
+      "text": "I wonder if you should be here... Stop snooping around!"
+    }
+  ]
+}

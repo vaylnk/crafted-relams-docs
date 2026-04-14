@@ -1,0 +1,16 @@
+{
+    "title": "Lua Event Functions",
+    "description": "This is the Crafted Realms Lua Event Functions documentation. This page is dedicated to the overview of the Lua event functions.",
+    "content": [
+        {
+            "type": "heading",
+            "level": 1,
+            "text": "Lua Event Functions"
+        },
+        {
+            "type": "paragraph",
+            "level": 1,
+            "text": "This is the Crafted Realms Lua Event Functions documentation. This page is dedicated to the overview of the Lua event functions."
+        }
+    ]
+}

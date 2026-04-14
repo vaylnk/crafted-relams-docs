@@ -1,0 +1,32 @@
+{
+    "title": "Test Page Three",
+    "description": "This is a test page for the Crafted Realms documentation website.",
+    "content": [
+        {
+            "type": "heading",
+            "level": 1,
+            "text": "Welcome to the Test Page Three"
+        },
+        {
+            "type": "paragraph",
+            "text": "This page is used to test the functionality of the documentation website. It contains various elements such as headings, paragraphs, and lists."
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Features"
+        },
+        {
+            "type": "code",
+            "text": "function greet(name) {\n  return `Hello, ${name}!`;\n}\n\nconsole.log(greet('Crafted Realms'));"
+        },
+        {
+            "type": "list",
+            "items": [
+                "Easy to navigate",
+                "Responsive design",
+                "Comprehensive documentation"
+            ]
+        }
+    ]
+}

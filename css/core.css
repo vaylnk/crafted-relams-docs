@@ -1,0 +1,15 @@
+body, html
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background-color: #251f29;
+}
+
+a
+{
+    color: #ffafe1;
+}

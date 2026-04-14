@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>Crafted Realms - Documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/core.css">
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/view.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="view">
+
+            <nav>
+            <h1 onclick="LoadPage('Home', this);">Crafted Realms Documentation</h1>
+
+            <div class="group">
+
+                <h2 onclick="LoadPage('LuaDoc', this)">Lua Event Functions</h2>
+                <div class="subgroup">
+                    <h3 onclick="LoadPage('Awake', this)">Method - Awake</h3>
+                    <h3 onclick="LoadPage('Heartbeat', this)">Method - Heartbeat</h3>
+                    <h3 onclick="LoadPage('Asleep', this)">Method - Asleep</h3>
+                </div>
+
+            </div>
+
+            <div class="group dev">
+
+                <h2 onclick="LoadPage('DeveloperResources', this)">Developer Resources</h2>
+                <div class="subgroup">
+                    <h3 onclick="window.open('CreateJson.html')">Developer - Create JSON Document</h3>
+                </div>
+
+            </div>
+
+        </nav>
+
+        <main>
+            
+            <div id="main-content">
+
+            </div>
+
+        </main>
+
+        </div>
+        
+        <script src="js/LoadData.js" defer></script>
+        <script src="js/OnReload.js" defer></script>
+        <script src="js/IsDev.js" defer></script>
+    </body>
+</html>

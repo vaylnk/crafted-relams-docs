@@ -1,0 +1,28 @@
+{
+    "title": "Lua Method - Heartbeat",
+    "description": "This page is dedicated to the Heartbeat method in Lua for Crafted Realms.",
+    "content": [
+        {
+            "type": "heading",
+            "level": 1,
+            "text": "Lua Method - Heartbeat"
+        },
+        {
+            "type": "paragraph",
+            "text": "This method is called periodically during the game loop. It is used to update the game state and perform any necessary calculations."
+        },
+        {
+            "type": "paragraph",
+            "text": "The delta parameter represents the time elapsed since the last call to the Heartbeat method. This can be used to perform time-based operations."
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Example:"
+        },
+        {
+            "type": "code",
+            "text": "function Heartbeat(delta) \n  if delta > 0 then \n    local fps = math.floor(1 / delta) \n    Print(\"FrameRate / \" .. fps) \n  end \nend"
+        }
+    ]
+}

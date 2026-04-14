@@ -1,0 +1,61 @@
+nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2vmin;
+    padding-bottom: 100%;
+    height: 97vh;
+    overflow-y: auto;
+    width: 30vmin;
+    background-color: #362d3b;
+    color: white;
+    gap: 0.1vmin;
+}
+
+nav h1
+{
+    margin: 0;
+    align-self: flex-start;
+    font-size: 1.5vmin;
+    cursor: pointer;
+}
+
+nav h1:hover, nav h2:hover, nav h3:hover
+{
+    color: #ff92d5;
+}
+
+.active
+{
+    color: #ffafe1 !important;
+}
+
+.group
+{
+    align-self: flex-start;
+    /* display: flex; */
+    flex-direction: column;
+    gap: 0.5vmin;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+}
+
+.group h2
+{
+    text-decoration: none;
+    color: #ffffffe1;
+    font-size: 1.4vmin;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.group h3
+{
+    text-decoration: none;
+    color: #ffffffa9;
+    font-size: 1.3vmin;
+    font-weight: lighter;
+    cursor: pointer;
+}

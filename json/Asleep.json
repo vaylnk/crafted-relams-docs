@@ -1,0 +1,24 @@
+{
+    "title": "Lua Method - Asleep",
+    "description": "This page is dedicated to the Asleep method in Lua for Crafted Realms.",
+    "content": [
+        {
+            "type": "heading",
+            "level": 1,
+            "text": "Lua Method - Asleep"
+        },
+        {
+            "type": "paragraph",
+            "text": "This method is called when the engine is about to enter a sleep state. It is used to perform any necessary cleanup or save operations before the engine stops running."
+        },
+        {
+            "type": "heading",
+            "level": 2,
+            "text": "Example:"
+        },
+        {
+            "type": "code",
+            "text": "function Asleep() \n  Print(\"I am sleeping!\") \nend"
+        }
+    ]
+}

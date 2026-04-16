@@ -1,0 +1,45 @@
+.loader
+{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #21182bec;
+    z-index: 999;
+    position: absolute;
+    padding: 100vmin;
+    display: flex;
+}
+
+.loading-content
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 1vmin;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+
+
+.loader:before
+{
+    align-self: center;
+    content: "";
+    width: 10vmin;
+    height: 10vmin;
+    border: 1vmin solid #f2afff;
+    border-top: 1vmin solid transparent;
+    border-radius: 50%;
+    margin-left: calc(50% - 21.5vmin);
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin
+{
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

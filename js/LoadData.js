@@ -1,4 +1,7 @@
 async function LoadPage(pageName, clickedElement = null) {
+    var loader = document.querySelector(".loading");
+    loader.style.display = "flex";
+
     try {
         const response = await fetch(`json/${pageName}.json`);
 
@@ -8,6 +11,7 @@ async function LoadPage(pageName, clickedElement = null) {
 
         const data = await response.json();
         RenderPage(data, clickedElement);
+        loader.style.display = "none";
         if (clickedElement)
         {
             const allHeadings = document.querySelectorAll("nav h1, nav h2, nav h3");

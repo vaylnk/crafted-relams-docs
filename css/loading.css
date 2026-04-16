@@ -34,7 +34,7 @@
     border: 0.5vmin solid #f2afff;
     border-top: 0.5vmin solid transparent;
     border-radius: 50%;
-    margin-left: calc(50% - 21.5vmin);
+    margin-left: calc(50% - 18vmin);
     animation: spin 1s ease infinite;
 }
 

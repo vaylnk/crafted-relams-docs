@@ -2,8 +2,6 @@ async function LoadPage(pageName, clickedElement = null) {
     var loader = document.querySelector(".loading");
     loader.style.display = "flex";
 
-    
-
     try {
         const response = await fetch(`json/${pageName}.json`);
 
@@ -26,6 +24,7 @@ async function LoadPage(pageName, clickedElement = null) {
 }
 
 function RenderPage(data) {
+    var loader = document.querySelector(".loading");
     const node = document.getElementById("main-content");
     node.innerHTML = "";
 

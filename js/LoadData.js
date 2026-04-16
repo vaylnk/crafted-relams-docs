@@ -125,7 +125,9 @@ function RenderPage(data) {
             }
         });
 
-        loader.style.display = "none";
+        setTimeout(() => {
+            loader.style.display = "none";
+        }, 100);
     }
 }
 

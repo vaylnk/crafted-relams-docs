@@ -13,7 +13,6 @@ async function LoadPage(pageName, clickedElement = null) {
 
         const data = await response.json();
         RenderPage(data, clickedElement);
-        loader.style.display = "none";
         if (clickedElement)
         {
             const allHeadings = document.querySelectorAll("nav h1, nav h2, nav h3");
@@ -126,6 +125,8 @@ function RenderPage(data) {
                 node.appendChild(contentElement);
             }
         });
+
+        loader.style.display = "none";
     }
 }
 

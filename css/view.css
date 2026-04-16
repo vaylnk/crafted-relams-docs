@@ -5,3 +5,11 @@
     height: 100%;
     width: 100%;
 }
+
+.view p
+{
+    margin-top: -0.5vmin;
+    margin-bottom: 2vmin;
+    font-size: 1vmin;
+    opacity: 0.7;
+}

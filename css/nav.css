@@ -14,15 +14,6 @@ nav {
     z-index: 9999;
 }
 
-
-.view p
-{
-    margin-top: -0.5vmin;
-    margin-bottom: 2vmin;
-    font-size: 1vmin;
-    opacity: 0.5;
-}
-
 nav h1
 {
     margin: 0;

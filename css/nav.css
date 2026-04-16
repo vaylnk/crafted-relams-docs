@@ -14,12 +14,20 @@ nav {
     z-index: 9999;
 }
 
+nav p
+{
+    opacity: 0.1;
+}
+
 nav h1
 {
     margin: 0;
     align-self: flex-start;
     font-size: 1.5vmin;
     cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
 }
 
 nav h1:hover, nav h2:hover, nav h3:hover

@@ -21,9 +21,8 @@
     justify-content: center;
     width: 100%;
     height: 100%;
-    color: white;
+    z-index: 999;
 }
-
 
 .loader:before
 {

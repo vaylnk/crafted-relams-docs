@@ -2,6 +2,8 @@ async function LoadPage(pageName, clickedElement = null) {
     var loader = document.querySelector(".loading");
     loader.style.display = "flex";
 
+    
+
     try {
         const response = await fetch(`json/${pageName}.json`);
 
